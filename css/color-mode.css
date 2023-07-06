@@ -1,0 +1,158 @@
+/* LIGHT MODE */
+
+body:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  content: url(../assets/face-animation-light/DLT1.svg)
+    url(../assets/face-animation-light/DLT2.svg)
+    url(../assets/face-animation-light/DLT3.svg)
+    url(../assets/face-animation-light/DLT4.svg)
+    url(../assets/face-animation-light/DLT5.svg)
+    url(../assets/face-animation-light/DRT1.svg)
+    url(../assets/face-animation-light/DRT2.svg)
+    url(../assets/face-animation-light/DRT3.svg)
+    url(../assets/face-animation-light/DRT4.svg)
+    url(../assets/face-animation-light/DRT5.svg)
+    url(../assets/face-animation-light/DLB1.svg)
+    url(../assets/face-animation-light/DLB2.svg)
+    url(../assets/face-animation-light/DLB3.svg)
+    url(../assets/face-animation-light/DLB4.svg)
+    url(../assets/face-animation-light/DLB5.svg)
+    url(../assets/face-animation-light/DRB1.svg)
+    url(../assets/face-animation-light/DRB2.svg)
+    url(../assets/face-animation-light/DRB3.svg)
+    url(../assets/face-animation-light/DRB4.svg)
+    url(../assets/face-animation-light/DRB5.svg)
+    url(../assets/face-animation-dark/VLB1.svg)
+    url(../assets/face-animation-dark/VLB2.svg)
+    url(../assets/face-animation-dark/VLB3.svg)
+    url(../assets/face-animation-dark/VLB4.svg)
+    url(../assets/face-animation-dark/VLB5.svg)
+    url(../assets/face-animation-dark/VRT1.svg)
+    url(../assets/face-animation-dark/VRT2.svg)
+    url(../assets/face-animation-dark/VRT3.svg)
+    url(../assets/face-animation-dark/VRT4.svg)
+    url(../assets/face-animation-dark/VRT5.svg)
+    url(../assets/face-animation-dark/VLT1.svg)
+    url(../assets/face-animation-dark/VLT2.svg)
+    url(../assets/face-animation-dark/VLT3.svg)
+    url(../assets/face-animation-dark/VLT4.svg)
+    url(../assets/face-animation-dark/VLT5.svg)
+    url(../assets/face-animation-dark/VRB1.svg)
+    url(../assets/face-animation-dark/VRB2.svg)
+    url(../assets/face-animation-dark/VRB3.svg)
+    url(../assets/face-animation-dark/VRB4.svg)
+    url(../assets/face-animation-dark/VRB5.svg);
+}
+
+:root {
+  /* Colors */
+  --bg: #fff;
+  --bg-alt: #333;
+  --bg-alt-2: #f0f0f0;
+  --bg-transparent: #ffffffe8;
+  --border: 0.01rem solid #333;
+  --text: #333;
+  --text-alt: #fff;
+  /* Light mode text styles */
+  --text-font: 'Archistico',Arial, sans-serif;
+
+  /* Face animations */
+  --tl-1: url(../assets/face-animation-light/DLT1.svg);
+  --tl-2: url(../assets/face-animation-light/DLT2.svg);
+  --tl-3: url(../assets/face-animation-light/DLT3.svg);
+  --tl-4: url(../assets/face-animation-light/DLT4.svg);
+  --tl-5: url(../assets/face-animation-light/DLT5.svg);
+
+  --tr-1: url(../assets/face-animation-light/DRT1.svg);
+  --tr-2: url(../assets/face-animation-light/DRT2.svg);
+  --tr-3: url(../assets/face-animation-light/DRT3.svg);
+  --tr-4: url(../assets/face-animation-light/DRT4.svg);
+  --tr-5: url(../assets/face-animation-light/DRT5.svg);
+
+  --bl-1: url(../assets/face-animation-light/DLB1.svg);
+  --bl-2: url(../assets/face-animation-light/DLB2.svg);
+  --bl-3: url(../assets/face-animation-light/DLB3.svg);
+  --bl-4: url(../assets/face-animation-light/DLB4.svg);
+  --bl-5: url(../assets/face-animation-light/DLB5.svg);
+
+  --br-1: url(../assets/face-animation-light/DRB1.svg);
+  --br-2: url(../assets/face-animation-light/DRB2.svg);
+  --br-3: url(../assets/face-animation-light/DRB3.svg);
+  --br-4: url(../assets/face-animation-light/DRB4.svg);
+  --br-5: url(../assets/face-animation-light/DRB5.svg);
+
+  --sun: url(./assets/icons/2.svg);
+}
+
+/* DARK MODE */
+
+:root.dark-mode {
+  --bg: #202124;
+  --bg-alt: #3c3d40;
+  --bg-alt-2: #333;
+  --bg-transparent: #333333f5;
+  --border: 0.01rem solid #5a5a5a;
+  --text: #fff;
+  /* Dark mode text styles */
+  --text-font: 'Edo',Verdana, sans-serif;
+
+  --tl-1: url(../assets/face-animation-dark/VLT1.svg);
+  --tl-2: url(../assets/face-animation-dark/VLT2.svg);
+  --tl-3: url(../assets/face-animation-dark/VLT3.svg);
+  --tl-4: url(../assets/face-animation-dark/VLT4.svg);
+  --tl-5: url(../assets/face-animation-dark/VLT5.svg);
+
+  --tr-1: url(../assets/face-animation-dark/VRT1.svg);
+  --tr-2: url(../assets/face-animation-dark/VRT2.svg);
+  --tr-3: url(../assets/face-animation-dark/VRT3.svg);
+  --tr-4: url(../assets/face-animation-dark/VRT4.svg);
+  --tr-5: url(../assets/face-animation-dark/VRT5.svg);
+
+  --bl-1: url(../assets/face-animation-dark/VLB1.svg);
+  --bl-2: url(../assets/face-animation-dark/VLB2.svg);
+  --bl-3: url(../assets/face-animation-dark/VLB3.svg);
+  --bl-4: url(../assets/face-animation-dark/VLB4.svg);
+  --bl-5: url(../assets/face-animation-dark/VLB5.svg);
+
+  --br-1: url(../assets/face-animation-dark/VRB1.svg);
+  --br-2: url(../assets/face-animation-dark/VRB2.svg);
+  --br-3: url(../assets/face-animation-dark/VRB3.svg);
+  --br-4: url(../assets/face-animation-dark/VRB4.svg);
+  --br-5: url(../assets/face-animation-dark/VRB5.svg);
+
+  --moon: url(./assets/icons/1.svg);
+}
+
+/* COLOR MODE TOGGLE BUTTON */
+
+#color-mode {
+  background: var(--bg-alt-2);
+  height: 2.75rem;
+  width: 4rem;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#toggle-button {
+  background-image: var(--sun);
+  background-size: cover;
+  cursor: pointer;
+}
+
+.dark-mode #toggle-button {
+  background-image: var(--moon);
+}
+
+.dark-mode #color-mode {
+  justify-content: flex-end;
+}
